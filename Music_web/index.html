@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="brand">
+          <img src="/image/Spotify_logo.png" alt="logo" />
+          Spotify
+        </li>
+        <li>Home</li>
+        <li>About</li>
+      </ul>
+
+      <div class="container">
+        <div class="songList">
+          <h1>Best of TMQ - No Copyright Sounds</h1>
+          <div class="songItemContainer">
+            <!-- Let Me Love you  -->
+            <div class="songItem">
+              <img src="/image/meo.jpg" alt="1" />
+              <span class="songName"
+                >Tháng Tư Là Lời Nói Dối Của Em - Hà Anh Tuấn</span
+              >
+              <span class="songListPlay">
+                <span class="timestamp"
+                  >06:11 <i id="0" class="far songItemPlay fa-play-circle"></i
+                ></span>
+              </span>
+            </div>
+
+            <!--  -->
+            <div class="songItem">
+              <img src="/image/meo.jpg" alt="1" />
+              <span class="songName">Từng Là - Vũ Cát Tường</span>
+              <span class="songListPlay">
+                <span class="timestamp"
+                  >04:37 <i id="1" class="far songItemPlay fa-play-circle"></i
+                ></span>
+              </span>
+            </div>
+
+            <!--  -->
+            <div class="songItem">
+              <img src="/image/meo.jpg" alt="1" />
+              <span class="songName"
+                >Chạm Khẽ Tim Anh Một Chút Thôi - Noo Phước Thịnh</span
+              >
+              <span class="songListPlay">
+                <span class="timestamp"
+                  >05:48 <i id="2" class="far songItemPlay fa-play-circle"></i
+                ></span>
+              </span>
+            </div>
+            <!--  -->
+            <div class="songItem">
+              <img src="/image/meo.jpg" alt="1" />
+              <span class="songName">Thuận Theo Ý Trời - Bùi Anh Tuấn</span>
+              <span class="songListPlay">
+                <span class="timestamp"
+                  >04:06 <i id="3" class="far songItemPlay fa-play-circle"></i
+                ></span>
+              </span>
+            </div>
+            <!--  -->
+            <div class="songItem">
+              <img src="/image/meo.jpg" alt="1" />
+              <span class="songName">Sau Lời Từ Khước - phan Mạnh Quỳnh</span>
+              <span class="songListPlay">
+                <span class="timestamp"
+                  >04:10 <i id="4" class="far songItemPlay fa-play-circle"></i
+                ></span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="songBanner"></div>
+      </div>
+
+      <div class="bottom">
+        <input
+          type="range"
+          name="range"
+          id="myProgressBar"
+          min="0"
+          value="0"
+          max="100"
+        />
+        <div class="icon">
+          <!-- fontawéome icon -->
+          <i class="fa-3x fa-solid fa-backward" id="previous"></i>
+          <i class="fa-3x fa-solid fa-circle-play" id="masterPlay"></i>
+          <i class="fa-3x fa-solid fa-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+          <img src="/image/playing.gif" width="42px" alt="playing" id="gif" />
+          <span id="masterSongName"
+            >Tháng Tư Là Lời Nói Dối Của Em - Hà Anh Tuấn</span
+          >
+        </div>
+      </div>
+    </nav>
+    <script
+      src="https://kit.fontawesome.com/1a1e2a8d54.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
